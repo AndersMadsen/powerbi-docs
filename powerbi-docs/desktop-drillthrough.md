@@ -47,7 +47,10 @@ With **drillthrough** in **Power BI Desktop**, you can create a page in your rep
 
 ## Pass all filters in drillthrough
 
-Beginning with the May 2018 version of **Power BI Desktop**, you can pass all applied filters to the drillthrough window. For example, you might have selected only a certain category of products and the visuals filtered to that category, then you select drillthrough. You might be interested in what that drillthrough would look like with all those filters applied.
+**Note: The May update which moves drillthrough from an option under the filters cateogyr, becomes it's own category, the behavior of drillthrough is the same, with an additional feature we will now explain.**
+
+Beginning with the May 2018 version of **Power BI Desktop**, you can pass all applied filters to the drillthrough window. For example, you might have set up your drillthrough page to drillthrough on a specific product category. If the option is on, all applied filters will be sent with the drillthrough as additional drillthrough filters. If the option is off, only the fields you put in the drillthrough 
+will be filterd when you drillthrough to your page.
 
 To keep all applied filters, in the **Drillthrough** section of the **Visualizations** pane, simply set the **Pass all filters** toggle to **on**. 
 
